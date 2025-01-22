@@ -1,0 +1,22 @@
+25-01-10 10:24:27.337 : Model path: model_zoo\dncnn_50.pth
+25-01-10 10:24:27.337 : Params number: 555137
+25-01-10 10:24:27.339 : model_name:dncnn_50, image sigma:55
+25-01-10 10:24:27.339 : testsets\ct1
+25-01-10 10:24:27.566 : image_001.jpg - PSNR: 28.42 dB; SSIM: 0.3935.
+25-01-10 10:24:27.684 : image_063.jpg - PSNR: 28.97 dB; SSIM: 0.4203.
+25-01-10 10:24:27.795 : image_119.jpg - PSNR: 29.12 dB; SSIM: 0.4271.
+25-01-10 10:24:27.913 : image_138.jpg - PSNR: 29.52 dB; SSIM: 0.4117.
+25-01-10 10:24:28.029 : image_161.jpg - PSNR: 27.55 dB; SSIM: 0.4206.
+25-01-10 10:24:28.138 : image_219.jpg - PSNR: 27.95 dB; SSIM: 0.3972.
+25-01-10 10:24:28.249 : image_241.jpg - PSNR: 28.46 dB; SSIM: 0.3514.
+25-01-10 10:24:28.348 : image_2629.jpg - PSNR: 28.23 dB; SSIM: 0.3790.
+25-01-10 10:24:28.460 : image_2634.jpg - PSNR: 28.05 dB; SSIM: 0.3867.
+25-01-10 10:24:28.560 : image_2637.jpg - PSNR: 27.89 dB; SSIM: 0.3972.
+25-01-10 10:24:28.660 : image_2694.jpg - PSNR: 28.50 dB; SSIM: 0.3603.
+25-01-10 10:24:28.773 : image_2713.jpg - PSNR: 27.26 dB; SSIM: 0.4475.
+25-01-10 10:24:28.877 : image_369.jpg - PSNR: 27.38 dB; SSIM: 0.4156.
+25-01-10 10:24:28.987 : image_430.jpg - PSNR: 27.80 dB; SSIM: 0.3961.
+25-01-10 10:24:29.095 : image_807.jpg - PSNR: 28.06 dB; SSIM: 0.3844.
+25-01-10 10:24:29.204 : image_881.jpg - PSNR: 28.48 dB; SSIM: 0.4501.
+25-01-10 10:24:29.304 : image_888.jpg - PSNR: 28.66 dB; SSIM: 0.4495.
+25-01-10 10:24:29.322 : Average PSNR/SSIM(RGB) - ct1_dncnn_50 - PSNR: 28.25 dB; SSIM: 0.4052

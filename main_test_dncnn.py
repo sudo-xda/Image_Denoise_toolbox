@@ -14,51 +14,7 @@ from utils import utils_model
 from utils import utils_image as util
 
 
-'''
-Spyder (Python 3.6)
-PyTorch 1.1.0
-Windows 10 or Linux
 
-Kai Zhang (cskaizhang@gmail.com)
-github: https://github.com/cszn/KAIR
-        https://github.com/cszn/DnCNN
-
-@article{zhang2017beyond,
-  title={Beyond a gaussian denoiser: Residual learning of deep cnn for image denoising},
-  author={Zhang, Kai and Zuo, Wangmeng and Chen, Yunjin and Meng, Deyu and Zhang, Lei},
-  journal={IEEE Transactions on Image Processing},
-  volume={26},
-  number={7},
-  pages={3142--3155},
-  year={2017},
-  publisher={IEEE}
-}
-
-% If you have any question, please feel free to contact with me.
-% Kai Zhang (e-mail: cskaizhang@gmail.com; github: https://github.com/cszn)
-
-by Kai Zhang (12/Dec./2019)
-'''
-
-"""
-# --------------------------------------------
-|--model_zoo          # model_zoo
-   |--dncnn_15        # model_name
-   |--dncnn_25
-   |--dncnn_50
-   |--dncnn_gray_blind
-   |--dncnn_color_blind
-   |--dncnn3
-|--testset            # testsets
-   |--set12           # testset_name
-   |--bsd68
-   |--cbsd68
-|--results            # results
-   |--set12_dncnn_15  # result_name = testset_name + '_' + model_name
-   |--set12_dncnn_25
-   |--bsd68_dncnn_15
-# --------------------------------------------
-"""
 
 
 def main():
@@ -68,8 +24,8 @@ def main():
     # ----------------------------------------
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_name', type=str, default='dncnn_25', help='dncnn_15, dncnn_25, dncnn_50, dncnn_gray_blind, dncnn_color_blind, dncnn3')
-    parser.add_argument('--testset_name', type=str, default='set12', help='test set, bsd68 | set12')
-    parser.add_argument('--noise_level_img', type=int, default=15, help='noise level: 15, 25, 50')
+    parser.add_argument('--testset_name', type=str, default='ct1', help='test set, bsd68 | set12')
+    parser.add_argument('--noise_level_img', type=int, default=55, help='noise level: 15, 25, 50')
     parser.add_argument('--x8', type=bool, default=False, help='x8 to boost performance')
     parser.add_argument('--show_img', type=bool, default=False, help='show the image')
     parser.add_argument('--model_pool', type=str, default='model_zoo', help='path of model_zoo')
